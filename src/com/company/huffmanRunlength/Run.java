@@ -1,11 +1,42 @@
 package com.company.huffmanRunlength;
 
-public class Run {
+public class Run implements Comparable<Run> {
 
-    byte symbol;
+    private Byte symbol;
 
-    int length;
+    private Integer length;
 
-    int frequency;
+    private Integer frequency;
 
+    public Run left;
+
+    public Run right;
+
+    public Run(Byte symbol, Integer length, Integer frequency) {
+        this.symbol = symbol;
+        this.length = length;
+        this.frequency = frequency;
+    }
+
+    public void setFrequency(int frequency) {
+        this.frequency = frequency;
+    }
+
+    public int getFrequency() {
+        return frequency;
+    }
+
+    public boolean equals(Run run) {
+        return (this.symbol == run.symbol) && (this.length == run.length);
+    }
+
+    @Override
+    public String toString() {
+        return "" + frequency;
+    }
+
+    @Override
+    public int compareTo(Run o) {
+        return o.frequency - this.frequency;
+    }
 }
