@@ -51,7 +51,6 @@ public class Prim {
         PriorityQueue<Graph> pq = new PriorityQueue<>();
 
         add_Queue(pq, 1);
-
         while (!pq.isEmpty()) {
             Graph temp_Graph = pq.poll();
             int other = temp_Graph.other;
