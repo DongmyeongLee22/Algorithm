@@ -12,6 +12,10 @@ public class Run implements Comparable<Run> {
 
     public Run right;
 
+    public int codeword;
+
+    public int codewordLen;
+
     public Run(Byte symbol, Integer length, Integer frequency) {
         this.symbol = symbol;
         this.length = length;
@@ -38,5 +42,13 @@ public class Run implements Comparable<Run> {
     @Override
     public int compareTo(Run o) {
         return o.frequency - this.frequency;
+    }
+
+    public Byte getSymbol() {
+        return symbol;
+    }
+
+    public Integer getLength() {
+        return length;
     }
 }

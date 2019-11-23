@@ -10,14 +10,15 @@ public class HuffmanCoding {
     private List<Run> runList = new ArrayList<>();
     private Heap<Run> heap;
     private Run theRoot = null;
+    private Run[] chars = new Run[256];
 
-    private void createHuffmanTree(){
+    private void createHuffmanTree() {
 
         heap = new Heap<>();
         for (Run run : runList) {
             heap.insert(run);
         }
-        while(heap.size() > 1){
+        while (heap.size() > 1) {
 
             Run firstRun = heap.delete();
             Run secondRun = heap.delete();
@@ -34,21 +35,20 @@ public class HuffmanCoding {
 
     }
 
-    private void printHuffmanTree(){
+    private void printHuffmanTree() {
         preOrderTraverse(theRoot, 0);
     }
 
     private void preOrderTraverse(Run node, int depth) {
-        for(int i = 0 ; i < depth; i++)
+        for (int i = 0; i < depth; i++)
             System.out.print("  ");
 
-        if(node == null) {
+        if (node == null) {
             System.out.println("null");
-        }
-        else{
+        } else {
             System.out.println(node.toString());
-            preOrderTraverse(node.left,depth+1);
-            preOrderTraverse(node.right,depth+1);
+            preOrderTraverse(node.left, depth + 1);
+            preOrderTraverse(node.right, depth + 1);
         }
 
     }
@@ -92,13 +92,77 @@ public class HuffmanCoding {
         HuffmanCoding app = new HuffmanCoding();
         RandomAccessFile file;
         file = new RandomAccessFile("C:\\Users\\dmdsj\\Algorithm\\src\\com\\company\\huffmanRunlength/sample.txt", "r");
-        app.collectRuns(file);
+        app.compressFile(file, "sample.txt");
         file.close();
 
-        app.createHuffmanTree();
-        app.printHuffmanTree();
 
+    }
 
+    private void compressFile(RandomAccessFile fileIn, String fileName) throws IOException {
+
+        String outFileName = fileName + ".z";
+
+        RandomAccessFile fileOut = new RandomAccessFile(outFileName, "rw");
+
+        collectRuns(fileIn);
+        outputFrequencies(fileIn, fileOut);
+        createHuffmanTree();
+        //printHuffmanTree();
+        assignCodewords(theRoot, 0, 0);
+        storeRunsIntoArray(theRoot);
+    }
+
+    private void outputFrequencies(RandomAccessFile fileIn, RandomAccessFile fileOut) throws IOException {
+
+        fileOut.write(runList.size());
+        fileOut.writeLong(fileIn.getFilePointer());
+
+        for (Run run : runList) {
+            fileOut.write(run.getSymbol());
+            fileOut.writeInt(run.getLength());
+            fileOut.writeInt(run.getFrequency());
+        }
+    }
+
+    private void storeRunsIntoArray(Run run) {
+        if (run.left == null && run.right == null) {
+            insertToArray(run);
+        } else if (run.left != null) {
+            storeRunsIntoArray(run.left);
+        } else {
+            storeRunsIntoArray(run.right);
+        }
+    }
+
+    public Run findRun(byte symbol, int length) {
+        Run run = chars[symbol];
+        while (run != null) {
+            if (run.getLength() == length) {
+                return run;
+            }
+            run = run.right;
+        }
+
+        throw new NullPointerException();
+    }
+
+    private void insertToArray(Run run) {
+        int index = run.getSymbol();
+        run.right = chars[index].right;
+        chars[index].right = run;
+    }
+
+    private void assignCodewords(Run run, int codeword, int length) {
+        if (run.right == null && run.left == null) {
+            run.codeword = codeword;
+            run.codewordLen = length;
+            int getCodeword = Integer.parseInt(Integer.toBinaryString(codeword));
+            String codeWordString = String.format("%0" + length + "d", getCodeword);
+            System.out.println(codeWordString);
+        } else {
+            assignCodewords(run.left, codeword << 1, length + 1);
+            assignCodewords(run.right, (codeword << 1) + 1, length + 1);
+        }
     }
 
 }

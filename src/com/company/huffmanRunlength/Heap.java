@@ -1,7 +1,5 @@
 package com.company.huffmanRunlength;
 
-import jdk.nashorn.internal.runtime.arrays.ArrayIndex;
-
 import java.util.ArrayList;
 import java.util.List;
 
