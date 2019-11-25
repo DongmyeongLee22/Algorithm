@@ -46,5 +46,52 @@ public class TopKFrequentWords {
                 this.count = 1;
             }
         }
+
+
+        /*
+        class Solution {
+            class Word implements Comparable<Word> {
+                public String word;
+                public int frequency;
+                public Word(String word, int frequency) {
+                    this.word = word;
+                    this.frequency = frequency;
+                }
+
+                public int compareTo(Word other) {
+                    if (this.frequency != other.frequency) {
+                        return other.frequency - this.frequency;
+                    } else {
+                        return this.word.compareTo(other.word);
+                    }
+                }
+            }
+
+            public List<String> topKFrequent(String[] words, int k) {
+
+                Map<String, Word> dict = new HashMap<>();
+                for (String s : words) {
+                    if (!dict.containsKey(s)) {
+                        dict.put(s, new Word(s, 1));
+                    } else {
+                        Word word = dict.get(s);
+                        word.frequency++;
+                    }
+                }
+
+                Queue<Word> pq = new PriorityQueue<>();
+                for (String word : dict.keySet()) {
+                    pq.add(dict.get(word));
+                }
+
+                List<String> result = new ArrayList<>();
+                for (int i = 0; i < k; i++) {
+                    result.add(pq.poll().word);
+                }
+
+                return result;
+            }
+        }
+        */
     }
 }
