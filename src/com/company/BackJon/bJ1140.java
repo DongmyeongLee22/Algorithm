@@ -12,9 +12,9 @@ public class bJ1140 {
 
     }
 
-    public static int solve(int T, int PK1, int P1, int PK2, int P2) {
+    public static int solve(int T, int PK1, int P1, int PK2, int P2){
 
-        if (PK1 > PK2) {
+        if(PK1 > PK2){
             int temp1 = PK1;
             int temp2 = P1;
             PK1 = PK2;
@@ -27,17 +27,17 @@ public class bJ1140 {
         int ret = 0;
         int cur = T;
 
-        if (P1 / PK1 < P2 / PK2) {
+        if(P1 / PK1 < P2 / PK2){
             int count = cur / PK1;
             ret += P1 * count;
             cur -= count * PK1;
-        } else {
+        }else{
             int count = cur / PK2;
             ret += P2 * count;
             cur -= count * PK2;
         }
 
-        if (cur == 0)
+        if(cur == 0)
             return ret;
 
         int p1min = P1 + 10 * (cur % PK1);
