@@ -6,6 +6,15 @@ public class Stack<T> {
 
     StackNode top;
 
+    class StackNode {
+        T data;
+        StackNode next;
+
+        public StackNode(T data) {
+            this.data = data;
+        }
+    }
+
     public T peek() {
         if (top == null) {
             throw new EmptyStackException();
@@ -32,14 +41,5 @@ public class Stack<T> {
 
     public boolean isEmpty() {
         return top == null;
-    }
-
-    class StackNode {
-        T data;
-        StackNode next;
-
-        public StackNode(T data) {
-            this.data = data;
-        }
     }
 }
