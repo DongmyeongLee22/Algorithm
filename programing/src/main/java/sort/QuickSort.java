@@ -38,6 +38,8 @@ public class QuickSort {
             data[lowerIndex] = data[end];
             data[end] = tmp;
             int q =  lowerIndex;
+
+
             quickSort(data, start, q -1);
             quickSort(data, q + 1, end);
         }

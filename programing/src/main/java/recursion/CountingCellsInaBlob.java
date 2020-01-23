@@ -4,7 +4,6 @@ public class CountingCellsInaBlob {
     private static int BACKGROUND_COLOR = 0;
     private static int IMAGE_COLOR = 1;
     private static int COUNTED_COLOR = 2;
-
     private static int N = 8;
     private static int[][] grid = {
             {1, 0, 0, 0, 0, 0, 0, 1},

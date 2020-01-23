@@ -30,6 +30,8 @@ public class BitReverse {
         return ret;
     }
 
+    public static void test(){
+    }
     private int findLongestBit(List<Integer> list) {
 
         int max = Integer.MIN_VALUE;

@@ -5,6 +5,7 @@ public class Insert {
     int insertBit(int N, int M, int i, int j) {
         // N = 10000, M = 101
         // i = 1, j = 3이라고 생각하자
+        BitReverse.test();
 
         int left = (-1 << j + 1); // 11111 << 4 = 10000
         int right = (1 << i) - 1; // 00010 - 1 = 00001

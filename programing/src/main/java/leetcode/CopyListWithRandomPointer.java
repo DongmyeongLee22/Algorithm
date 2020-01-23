@@ -1,7 +1,9 @@
 package leetcode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.IntStream;
 
 public class CopyListWithRandomPointer {
     class Node {
@@ -20,6 +22,8 @@ public class CopyListWithRandomPointer {
     }
 
     ;
+
+
 
     class Solution {
         public Node copyRandomList(Node head) {
