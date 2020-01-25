@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d0c3757-4640-472b-b6dd-ae3c1e7fd469" name="Default Changelist" comment="" />
+    <list default="true" id="5d0c3757-4640-472b-b6dd-ae3c1e7fd469" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/programmers/lv2/inmd/EndingGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/programmers/lv2/inmd/JaDenCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/programmers/lv2/inmd/JaDenCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/programmers/lv2/inmd/JaDenCaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/programmers.lv2.inmd.JaDenCaseTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/programmers.lv2.inmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/programmers.lv2.inmd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-programmers.lv2.inmd.JaDenCaseTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/lv2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/lv2/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +88,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1WfcLRKkMpiEWPKn9dyhiGPIpgi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MyProject/JPA-STDY/spring-querydsl" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,15 +114,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="programmers.lv2.inmd" />
+      <recent name="programmers.lv2" />
+      <recent name="programmers.lv1" />
+      <recent name="sta" />
       <recent name="javainterview.jvm" />
-      <recent name="lv2.inmd" />
-      <recent name="lv2" />
-      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="programmers.lv2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,13 +149,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.JaDenCaseTest.asd">
-    <configuration name="EndingGameTest.as" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BaseballTest.initTEst">
+    <configuration name="BaseballTest.initTEst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.EndingGameTest.as&quot;" />
+        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.BaseballTest.initTEst&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -133,12 +170,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JaDenCaseTest.asd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JoyStickTest.alphaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.JaDenCaseTest.asd&quot;" />
+        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.JoyStickTest.alphaTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,12 +190,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LeastCommonMultipleTest.te" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JoyStickTest.jumpCountTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.LeastCommonMultipleTest.te&quot;" />
+        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.JoyStickTest.jumpCountTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,12 +210,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinMaxSpaceTest.asd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RightBracketTest.setRightBracket" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.MinMaxSpaceTest.asd&quot;" />
+        <option name="scriptParameters" value="--tests &quot;programmers.lv2.RightBracketTest.setRightBracket&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -193,12 +230,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NextBiggerTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SequenceNumTest.asd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.NextBiggerTest.test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;programmers.lv2.inmd.SequenceNumTest.asd&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -215,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JaDenCaseTest.asd" />
-        <item itemvalue="Gradle.EndingGameTest.as" />
-        <item itemvalue="Gradle.LeastCommonMultipleTest.te" />
-        <item itemvalue="Gradle.MinMaxSpaceTest.asd" />
-        <item itemvalue="Gradle.NextBiggerTest.test" />
+        <item itemvalue="Gradle.BaseballTest.initTEst" />
+        <item itemvalue="Gradle.RightBracketTest.setRightBracket" />
+        <item itemvalue="Gradle.SequenceNumTest.asd" />
+        <item itemvalue="Gradle.JoyStickTest.jumpCountTest" />
+        <item itemvalue="Gradle.JoyStickTest.alphaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,11 +274,27 @@
       <workItem from="1579582705648" duration="16469000" />
       <workItem from="1579610229102" duration="4498000" />
       <workItem from="1579794252944" duration="15473000" />
+      <workItem from="1579887883885" duration="7591000" />
+      <workItem from="1579940588891" duration="1668000" />
+      <workItem from="1579966842773" duration="18048000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,6 +338,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/programmers/lv2/EndingGame.java</url>
           <line>13</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/programmers/lv2/inmd/BigNumTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/programmers/lv1/Ka2020OpenCloseTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/programmers/lv2/Ka2020OpenClose.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/programmers/lv2/inmd/JoyStickTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/programmers/lv2/SequenceNum.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
